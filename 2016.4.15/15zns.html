@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+span{display:inline-block; width:150px; text-align:center; }
+</style>
+<script>
+
+</script>
+</head>
+
+<body>
+	<h2>新的input类型</h2>
+    数字<input type="number" value="1" min="1" max="100" /><br />
+    日期<input type="date" /><br />
+    时间<input type="time" /><br />
+    日期和时间<input type="datetime-local" /><br />
+    滑块<input type="range" value="0" min="0" max="100" /><br />
+    颜色<input type="color" /><br />
+    网址<input type="url" /><br />
+	<h2>自带下拉提示</h2>
+    提示<input type="search" list="dl" /><br />
+    <datalist id="dl">
+    	<option value="apply">apply</option>    	
+        <option value="apple">apple</option>
+    	<option value="big">big</option>
+    	<option value="last">last</option>
+    	<option value="list">list</option>
+    	<option value="zoom">zoom</option>
+    	<option value="zindex">zindex</option>
+    </datalist>
+    <h2>提示文字</h2>
+    用户<input type="text" placeholder="请输入用户名" /><br />
+    密码<input type="password" placeholder="请输入密码" /><br />
+    确认密码<input type="password" placeholder="请再次输入密码" /><br />
+    <h2>自动表单校验</h2>
+    <form action="www.baidu.com">
+    	邮箱<input type="email" name="email" /><br />
+        QQ号<input type="text" name="qq" pattern="[1-9]\d{4,10}"/><br />
+        手机号<input type="tel" name="mobile" pattern="1[3-58]\d{9}"/><br />
+        <input type="submit" value="提交" />
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
